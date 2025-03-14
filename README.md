@@ -88,6 +88,9 @@ Execution Time `findStudentWithHighestGpa()` from Intellij Profiler:
 |--------|--------|-----------------|
 | 627 ms | 209 ms | 66,67%          |
 
+Berdasarkan gambar, terlihat bahwa terdapat peningkatan performa berdasarkan hasil waktu yang diperoleh.
+Waktu eksekusi sebelum optimisasi lebih lama dibandingkan waktu eksekusi setelah optimisasi. Dengan demikian, optimisasi yang dilakukan berhasil menggunakan bantuan alat JMeter dan Intellij Profiler.
+
 
 
 
