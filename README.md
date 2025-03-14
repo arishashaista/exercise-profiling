@@ -1,4 +1,5 @@
-
+- [Reflection](#Reflection)
+- [JMeter Report and Test Results](#jmeter-report-and-test-results)
 
 # Reflection
 
@@ -37,6 +38,52 @@ sehingga lebih hemat memori dan meningkatkan efisiensi eksekusi.
 - Pada method `findStudentWithHighestGpa()` saya melakukan perbaikan dengan menggunakan query langsung di repository.
 - Untuk memastikan perubahan yang dilakukan tidak merusak fungsionalitas aplikasi, idealnya saya membuat unit test sebelum dan sesudah refactoring.
 
+# JMeter Report and Test Results
+## Endpoint `/all-student`
+
+Test Result Meter
+<img src="src/image/test-result-all-student.png" alt="test result all-student">
+
+Before Optimization JMeter
+<img src="src/image/jmeter-all-student.png" alt="jmeter all-student">
+
+After Optimization JMeter
+
+Execution Time `getAllStudentWithCourses()` from Intellij Profiler:
+
+| Before | After | Diff Percentage |
+|-----|-------|-----------------|
+| -   | -     | -               |
+
+### **Endpoint** `/all-student-name`
+Test Result Meter
+<img src="src/image/test-result-all-student-name.png" alt="test result all-student-name">
+
+Before Optimization JMeter
+<img src="src/image/jmeter-all-student-name.png" alt="jmeter all-student-name">
+
+After Optimization JMeter
+
+Execution Time `joinStudentNames()` from Intellij Profiler:
+
+| Before | After | Diff Percentage |
+|-----|-------|-----------------|
+| -   | -     | -               |
+
+### **Endpoint** `/highest-gpa`
+Test Result JMeter
+<img src="src/image/test-result-highest-gpa.png" alt="test result highest-gpa">
+
+Before Optimization JMeter
+<img src="src/image/jmeter-highest-gpa.png" alt="jmeter highest-gpa"/>
+
+After Optimization JMeter
+
+Execution Time `findStudentWithHighestGpa()` from Intellij Profiler:
+
+| Before | After | Diff Percentage |
+|-----|-------|-----------------|
+| -   | -     | -               |
 
 
 
