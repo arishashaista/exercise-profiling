@@ -48,12 +48,13 @@ Before Optimization JMeter
 <img src="src/image/jmeter-all-student.png" alt="jmeter all-student">
 
 After Optimization JMeter
+<img src="src/image/after-optimize-all-student.png" alt="after optimize all-student"/>
 
 Execution Time `getAllStudentWithCourses()` from Intellij Profiler:
 
-| Before    | After | Diff Percentage |
-|-----------|-------|-----------------|
-| 25,123 ms | -     | -               |
+| Before  | After     | Diff Percentage |
+|---------|-----------|-----------------|
+| 25,1 ms | 11,141 ms | 55,65%          |
 
 ### **Endpoint** `/all-student-name`
 Test Result Meter
@@ -63,12 +64,13 @@ Before Optimization JMeter
 <img src="src/image/jmeter-all-student-name.png" alt="jmeter all-student-name">
 
 After Optimization JMeter
+<img src="src/image/after-optimize-all-student-name.png" alt="after optimize all-student-name"/>
 
 Execution Time `joinStudentNames()` from Intellij Profiler:
 
-| Before   | After | Diff Percentage |
-|----------|-------|-----------------|
-| 2,179 ms | -     | -               |
+| Before   | After  | Diff Percentage |
+|----------|--------|-----------------|
+| 2,179 ms | 803 ms | 63,15%          |
 
 ### **Endpoint** `/highest-gpa`
 Test Result JMeter
@@ -78,12 +80,13 @@ Before Optimization JMeter
 <img src="src/image/jmeter-highest-gpa.png" alt="jmeter highest-gpa"/>
 
 After Optimization JMeter
+<img src="src/image/after-optimize-highest-gpa.png" alt="after optimize highest-gpa"/>
 
 Execution Time `findStudentWithHighestGpa()` from Intellij Profiler:
 
-| Before | After | Diff Percentage |
-|--------|-------|-----------------|
-| 627 ms | -     | -               |
+| Before | After  | Diff Percentage |
+|--------|--------|-----------------|
+| 627 ms | 209 ms | 66,67%          |
 
 
 
